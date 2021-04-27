@@ -365,3 +365,21 @@ display:relative from .plan--popular .card__header */
     font-size: 1.7rem;
   }
 }
+
+/* Media */
+.media {
+  display: flex;
+}
+
+.media__title {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.media__image {
+  margin-top: 1rem;
+}
+
+.media__body {
+  padding: 0 2rem;
+}
