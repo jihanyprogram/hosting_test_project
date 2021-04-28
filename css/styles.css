@@ -32,6 +32,7 @@ h1,
 h2,
 h3 {
   color: var(--color-headings);
+  margin-bottom: 1rem;
 }
 
 h1 {
@@ -218,6 +219,11 @@ a {
 .btn--secondary {
   background: var(--color-secondary);
   color: #fff;
+}
+
+.btn--stretched {
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .btn--secondary:hover {
@@ -498,5 +504,46 @@ display:relative from .plan--popular .card__header */
   .testimonial .quote {
     margin-left: 6rem;
     margin-right: 0;
+  }
+}
+
+/* Callouts */
+.callout {
+  padding: 4rem;
+  border-radius: 5px;
+}
+
+.callout--primary {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.callout__heading {
+  color: #fff;
+  margin-top: 0;
+  font-size: 4rem;
+}
+
+.callout .btn {
+  justify-self: center;
+  align-self: center;
+}
+
+.callout__content {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .callout__content {
+    text-align: left;
+  }
+
+  .callout .btn {
+    justify-self: start;
+    margin: 0 2rem;
+  }
+
+  .callout .grid--1x2 {
+    grid-template-columns: 1fr auto;
   }
 }
