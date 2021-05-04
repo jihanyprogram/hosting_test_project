@@ -638,6 +638,7 @@ display:relative from .plan--popular .card__header */
 
 .block__header {
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 .block__heading {
